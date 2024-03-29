@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000d1d; /* Задний фон страницы */
+  }
+  
+  .navbar {
+    background-color: rgba(51, 51, 51, 0.9); /* Уменьшаем прозрачность */
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px; /* Делаем кнопки закругленными */
+  }
+  
+  .navbar ul li a:hover {
+    background-color: rgba(85, 85, 85, 0.7); /* Изменяем цвет при наведении */
+  }
+  
+  .menu-container {
+    max-width: 800px;
+    margin: 60px auto 20px; /* Учитываем высоту навигационной панели */
+    background-color: white; /* Белый фон контейнера с блюдами */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .menu-categories {
+    text-align: center;
+  }
+  
+  .category-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px; /* Делаем кнопки закругленными */
+  }
+  
+  .category-button.active {
+    background-color: #ccc;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .menu-item {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .menu-item img {
+    width: 100%;
+    border-radius: 10px; /* Делаем картинки с закругленными краями */
+  }
+  

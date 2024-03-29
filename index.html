@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Registration and Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style/common_style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="tabs">
+      <div id="btn"></div>
+      <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+      <button type="button" class="toggle-btn" onclick="registration()">Register</button>
+    </div>
+    <div class="social-icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+
+    <form id="login" class="form">
+      <input type="text" class="input-filed" placeholder="Username">
+      <input type="text" class="input-filed" placeholder="Password">
+      <input type="checkbox" class="check-box"><span>Remember Password</span>
+      <button type="submit" class="submit-btn"><a href="menu.html">Log in</a></button>
+    </form>
+
+    <form id="register" class="form">
+      <input type="text" class="input-filed" placeholder="Username">
+      <input type="email" class="input-filed" placeholder="Email">
+      <input type="text" class="input-filed" placeholder="Password">
+      <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+      <button type="submit" class="submit-btn">Register</button>
+    </form>
+  </div>
+
+  <script src="script/index_script.js"></script>
+</body>
+
+</html>
