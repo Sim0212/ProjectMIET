@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Меню Ресторана</title>
+  <link rel="stylesheet" href="style/menu_style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#" class="active">Меню</a></li>
+      <li><a href="#">Заказы</a></li>
+      <li><a href="#">Аккаунт</a></li>
+      <li><a href="#">Выход</a></li>
+    </ul>
+  </nav>
+  <div class="menu-container">
+    <div class="menu-categories">
+      <button class="category-button active" data-category="all">Все</button>
+      <button class="category-button" data-category="hot">Горячее</button>
+      <button class="category-button" data-category="desserts">Десерты</button>
+      <button class="category-button" data-category="appetizers">Закуски</button>
+      <button class="category-button" data-category="pizza">Пицца</button>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="images/brusketta.jpg" alt="Брускетта">
+        <p>Брускетта</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/carbonaraa.jpg" alt="Паста карбонара">
+        <p>Паста карбонара</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/margaritta.jpg" alt="Маргарита">
+        <p>Маргарита</p>
+      </div>
+      <div class="menu-item">
+        <img src="images/tiramisu.png" alt="Тирамису">
+        <p>Тирамису</p>
+      </div>
+    </div>
+  </div>
+  <script src="script/menu_script.js"></script>
+</body>
+</html>
